@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pixelcradle</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="image/png" href=".images/logo_joystick.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+
+<nav>
+    <div class="logo">Pixelcradle</div>
+    <div class="nav-items">
+        <a href="index.html">Domov</a>
+        <a href="ZoznamHier.html">Zoznam hier</a>
+        <a href="ONas.html">O nás</a>
+    </div>
+</nav>
+
+
+<div id="carousel-hero" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+            <img src=".images/redDead.png" class="d-block w-100" alt="Zaklínač na koni, pozerajúci sa na hrad.">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>The Witcher 3: Wild Hunt</h5>
+                <p>"Osud je bezcitný, no hrdinovia sú nezlomní."</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+            <img src=".images/mafiaImage.png" class="d-block w-100" alt="Piati spoločníci z hry Mafia.">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Mafia: Definitive Edition</h5>
+                <p>"V meste, kde je lojalita vzácna a zrada bežná, zbohom nevinnosť."</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+            <img src=".images/witcherCastle.jpg" class="d-block w-100" alt="Skupina banditov.">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Red Dead Redemption 2</h5>
+                <p>"V divočine, kde sa menia pravidlá, zrodia sa legendy."</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-hero" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel-hero" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="..."></script>
+
+</body>
+</html>
